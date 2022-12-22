@@ -1,0 +1,174 @@
+EventId,EventTemplate
+30c04e78,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{ <*> token = Token{ <*> ActivityRecord{ <*> u0 <*> /. <*> t761}}} , allDrawn = false , startingDisplayed = false , startingMoved = false , isRelaunching = false"
+ae4f82c1,"acquire lock = <*> , flags = <*> , tag = "" View Lock "" , name = <*> , ws = null , uid = <*> , pid = <*>"
+bc85aa74,"ready = true , policy = <*> , wakefulness = <*> , wksummary = <*> , uasummary = <*> , bootcompleted = true , boostinprogress = false , waitmodeenable = false , mode = false , manual = <*> , auto = - <*> , adj = <*> .0userId = <*>"
+85fb1fe1,Skipping AppWindowToken{ <*> token = Token{ <*> ActivityRecord{ <*> u0 <*> <*> <*> <*> t761}}} -- going to hide
+ae0e6d6d,visible is <*>
+168e62e2,mVisiblity.getValue is false
+9042ff8a,visible is <*> gt <*>
+37f5365a,"release : lock = <*> , flg = <*> , tag = "" View Lock "" , name = <*> "" , ws = null , uid = <*> , pid = <*>"
+e6c7def8,"updateClipping isOverlap : false , getTopPadding = <*> . <*> , Translation = <*> <*> . <*>"
+28b590b8,updateDimmedActivatedHideSensitive overlap : false
+db6be6fb,getRunningAppProcesses : caller <*> does not hold REAL_GET_TASKS ; limiting output
+fa8f804b,"release : lock = <*> , flg = <*> , tag = "" *launch* "" , name = android "" , ws = WorkSource{ <*> } , uid = <*> , pid = <*>"
+37250b57,"setSystemUiVisibility vis = <*> mask = <*> oldVal = <*> newVal = <*> diff = <*> fullscreenStackVis = <*> dockedStackVis = <*> , fullscreenStackBounds = Rect( <*> , <*> - <*> , <*> ) , dockedStackBounds = Rect( <*> , <*> - <*> , <*> )"
+3c2ee2af,cancelAutohide
+bad27f82,"notifyUiVisibilityChanged : vis = <*> , SystemUiVisibility = <*>"
+11aaba01,Destroying surface Surface(name = SurfaceView - <*> <*> . <*> ) called by <*> : <*> <*> : <*> <*> : <*> <*> $Stub.onTransact : <*> <*> : <*> <*> : <*> <bottom of call stack> <bottom of call stack>
+dc962a1b,Destroying surface Surface(name = <*> <*> . <*> ) called by <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> $Stub.onTransact : <*> <*> : <*>
+f496df04,"release : lock = <*> , flg = <*> , tag = "" WindowManager "" , name = android "" , ws = WorkSource{ <*> } , uid = <*> , pid = <*>"
+bdc1d57a,"userActivityNoUpdateLocked : eventTime = <*> , event = <*> , flags = <*> , uid = <*>"
+9638e733,"orientation change is complete , call stopFreezingDisplayLocked"
+2300a3a9,Screen frozen for +1s0ms due to Window{ <*> u0 <*> <*> . <*> }
+4bea79c0,startAnimation begin
+d8791e4b,startAnimation end
+293869bf,"release : lock = <*> , flg = <*> , tag = "" SCREEN_FROZEN "" , name = android "" , ws = null , uid = <*> , pid = <*>"
+d04f161f,remove(PendingIntent{ <*> : PendingIntentRecord{ <*> <*> broadcastIntent}}) changed bounds ; rebatching
+b388c79d,"rotationForOrientationLw(orient = <*> , last = <*> ) ; user = <*> USER_ROTATION_LOCKED"
+f8b97c57,"Application requested orientation <*> , got rotation <*> which has compatible metrics"
+0a50042c,"acquire lock = <*> , flags = <*> , tag = "" RILJ_ACK_WL "" , name = <*> , ws = null , uid = <*> , pid = <*>"
+78791997,shouldBlockLocation running ...
+3dabbd2b,shouldBlockLocation ret : false
+c22c4fc5,getNeighboringCellInfo calling app is <*>
+37b362ad,"release : lock = <*> , flg = <*> , tag = "" RILJ_ACK_WL "" , name = <*> "" , ws = null , uid = <*> , pid = <*>"
+d810e394,"release : lock = <*> , flg = <*> , tag = "" AudioMix "" , name = audioserver "" , ws = null , uid = <*> , pid = <*>"
+27415db4,"Releasing suspend blocker "" PowerManagerService.WakeLocks "" ."
+956ace7c,HBM brightnessIn = <*>
+b46f4fb2,HBM brightnessOut = <*>
+2ab465d4,"Animating brightness : target = <*> , rate = <*>"
+482e1e93,suspendAutohide
+7cb46105,interceptKeyTq keycode = <*> interactive = true keyguardActive = false policyFlags = <*> down true canceled false
+41aecd72,"interceptKeyBeforeQueueing : key <*> , result : <*>"
+8d7445f8,resumeSuspendedAutohide
+4232f6cf,interceptKeyTq keycode = <*> interactive = true keyguardActive = false policyFlags = <*> down false canceled false
+eeec1449,querySoundEffectsEnabled...
+b735e558,"acquire lock = <*> , flags = <*> , tag = "" *launch* "" , name = android , ws = WorkSource{ <*> } , uid = <*> , pid = <*>"
+197256cc,"Acquiring suspend blocker "" PowerManagerService.WakeLocks "" ."
+f0eb2f2f,Bad activity token : <*> @ <*>
+ecbfccea,<*> : <*> cannot be cast to <*> $Token
+e8374815,"onTouchEvent : : <*> , x = <*> . <*> , y = <*> . <*>"
+ade15b9a,schedulePeek
+33c7b245,getRingtonePlayer...
+fc0e9d38,disable : < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >
+43e0f320,"updateLightsLocked , mInCall = false , mScreenOn = true , ledNotification = = <*>"
+5cdec6b0,"updateLightsLocked , turn off notificationLight"
+6fc9d69c,"overlapAmount : <*> . <*> , previousNotificationEnd : <*> . <*> , newYTranslation : - <*> . <*> , location : <*> , i : <*> , getTopPadding : <*> . <*> , getLocationOnScreen() : - <*>"
+92bf0b8b,"state.clipTopAmount : <*> , i : <*>"
+f786464d,"updateClipping isOverlap : true , getTopPadding = <*> . <*> , Translation = - <*> . <*>"
+34ed8289,updateDimmedActivatedHideSensitive overlap : true
+f02115d0,onExpandingStarted
+cd7563b4,onTrackingStarted
+0b395d93,cancelPeek : false
+f5f17e83,"flingToHeight : vel = <*> . <*> , expand = true , target = <*> . <*> , collapseSpeedUpFactor = <*> . <*> , expandBecauseOfFalsing = false"
+27b5c264,onTrackingStopped : true
+b5721111,onExpandingFinished
+429ca1da,Sending non-protected broadcast <*> from system <*> : <*> <*> pkg <*>
+dac08128,logNotificationVisibilityChanges runInThread start
+fbd5de68,onNotificationVisibilityChanged called
+eda14053,logNotificationVisibilityChanges runInThread over
+6ed37c98,isSimPinSecure mSimDatas is null or empty
+2f983de0,registerCallback not in UI.
+5ca052b7,<*> : Must execute in UI
+9a1b75ee,*** register callback for <*> <*> itor@ <*>
+3ad5a38d,*** unregister callback for null
+56894506,[PhoneIntfMgr] getDataEnabled : subId = <*> phoneId = <*>
+ddc5411c,[PhoneIntfMgr] getDataEnabled : subId = <*> retVal = true
+dbdde151,"onInterceptTouchEvent MotionEvent { action = <*> , actionButton = <*> , id[ <*> ] = <*> , x[ <*> ] = <*> . <*> , y[ <*> ] = <*> . <*> , toolType[ <*> ] = TOOL_TYPE_FINGER , buttonState = <*> , metaState = <*> , flags = <*> , edgeFlags = <*> , pointerCount = <*> , historySize = <*> , eventTime = <*> , downTime = <*> , deviceId = <*> , source = <*> } , mBlockTouches = false"
+13fc8498,playSoundEffect effectType : <*>
+1b4d6cec,"animateCollapsePanels : flags = <*> , force = true , delayed = true , mExpandedVisible = true"
+a59e79ed,START u0 <*> = <*> <*> <*> <*> cmp = <*> <*> (has extras)} from uid <*> on display <*>
+0f7b0a72,"ActivityRecord info : ActivityInfo{ <*> <*> } , euid : <*>"
+06c4f169,onNotificationClick called
+c56fadbe,"cancelNotification , index : <*>"
+c1caec7f,"cancelNotification , cancelNotificationLocked , callingUid = <*> , callingPid = <*>"
+4bfe179a,"cancelNotificationLocked called , tell the app , reason = <*>"
+b8bbe113,cancelNotificationLocked : <*> | <*> | <*> |null| <*>
+7046fbd3,"cancelNotificationLocked , remove = <*>"
+7fa6532e,applyOptionsLocked : Unknown animationType = <*>
+43d13f19,"flingToHeight : vel = <*> . <*> , expand = false , target = <*> . <*> , collapseSpeedUpFactor = <*> . <*> , expandBecauseOfFalsing = false"
+d302c902,"Taking screenshot from Surface with crop : [Rect( <*> , <*> - <*> , <*> )] , width : [ <*> ] , height : [ <*> ] , minLayer : [ <*> ] , maxLayer : [ <*> ] , inRotation : [false] , rot : [ <*> ]"
+1afdbdb3,removeNotification : <*> | <*> | <*> |null| <*>
+82d8584d,"updateNotificationShade : total = <*> , active = <*>"
+c57b2c39,"animateCollapsePanels : flags = <*> , force = false , delayed = false , mExpandedVisible = true"
+d086f104,The change in focus caused us to need to do a layout begin
+681e150e,The change in focus caused us to need to do a layout end
+cfcd2084,0
+99e75217,removeNotificationChildren
+ea21d231,"Skipping , withExcluded : false , tr.intent : Intent { flg = <*> cmp = <*> /.recents.RecentsActivity bnds = [ <*> , <*> ][ <*> , <*> ] }"
+22ad0a4b,"Skipping , withExcluded : false , tr.intent : Intent { act = <*> flg = <*> cmp = <*> /.InCallActivity (has extras) }"
+044f4a17,"Skipping , withExcluded : false , tr.intent : Intent { flg = <*> cmp = <*> /. <*> (has extras) }"
+27e9ce2f,"Skipping , withExcluded : false , tr.intent : Intent { act = <*> dat = tel : xxxxxxxxxxx flg = <*> cmp = <*> /.ChooseSubActivity (has extras) }"
+e5d8364a,"Skipping , withExcluded : false , tr.intent : Intent { act = <*> dat = file : // <*> .apk typ = application <*> .android.package-archive flg = <*> cmp = <*> /.PackageInstallerActivity (has extras) }"
+b6f567e0,"getRecentTasks : num = <*> , flags = <*> , totalTasks = <*>"
+9b192cde,getRecentTasks : topActivity = ComponentInfo{ <*> <*> . <*> }
+e00e8daf,"cancelNotificationWithTag pid <*> , uid = <*> , tag = null , pkg = <*> , id = <*>"
+bf0914c0,makeExpandedInvisible : mExpandedVisible = true
+fbb3c9bb,closeQs
+18084d2f,instantCollapse
+3ce5bc45,disable : < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >
+61f4273a,getTasks : caller <*> does not hold REAL_GET_TASKS ; limiting output
+a6b9ef39,isMusicActive...
+5f912098,"Start dump , calling from : pid = <*> , uid = <*>"
+91376784,"acquire lock = <*> , flags = <*> , tag = "" WiredAccessoryManager "" , name = android , ws = null , uid = <*> , pid = <*>"
+844ff0f1,setWiredDeviceConnectionState type : - <*> state : <*>
+99bf8745,"acquire lock = <*> , flags = <*> , tag = "" handleAudioEvent "" , name = android , ws = null , uid = <*> , pid = <*>"
+c19089c7,"release : lock = <*> , flg = <*> , tag = "" WiredAccessoryManager "" , name = android "" , ws = null , uid = <*> , pid = <*>"
+246abfc6,"ActivityManagerService , attachApplication , callingPid = <*>"
+1d89100b,"acquire lock = <*> , flags = <*> , tag = "" AudioMix "" , name = audioserver , ws = null , uid = <*> , pid = <*>"
+1e60f81b,"release : lock = <*> , flg = <*> , tag = "" handleAudioEvent "" , name = android "" , ws = null , uid = <*> , pid = <*>"
+ce34163a,isBluetoothScoOn...
+a8bea94c,getLastAudibleStreamVolume treamType : <*>
+abc7d3fc,getDevicesForStream streamType : <*>
+369d5eff,cleanUpApplicationRecord -- <*>
+9ad2bd58,"cleanUpApplicationRecordLocked , pid : <*> , restart : false"
+e2ee543c,"cleanUpApplicationRecordLocked , reset pid : <*> , euid : <*>"
+33e15bd0,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested = false
+7735d2c2,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount = <*>
+eadc277d,getMode...
+c2e5c26b,setSpeakerphoneOn on : true
+995223e0,"sending alarm Alarm{ <*> type <*> when <*> PendingIntent{ <*> : PendingIntentRecord{ <*> android broadcastIntent}}} , repeatInterval = <*> , listenerTag = time_tick"
+4b84fef5,Received TIME_TICK alarm ; rescheduling
+215c579a,scheduleTimeTickEvent triggerAtTime = <*>
+7233f052,received broadcast <*>
+3e03b5e1,handleTimeUpdate
+8d9d3cbd,Destroying surface Surface(name = PopupWindow : <*> ) called by <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> : <*>
+bdc1b509,"sending alarm Alarm{ <*> type <*> when <*> PendingIntent{ <*> : PendingIntentRecord{ <*> <*> broadcastIntent}}} , repeatInterval = <*> , listenerTag = null"
+5866ae57,Killing <*> : <*> <*> (adj <*> ) : empty for 1810s
+ed47045b,Unable to start service Intent { act = <*> cmp = <*> <*> . <*> } U = <*> : not found
+13d3f523,unregisterAudioFocusListener...
+504c331a,abandonAudioFocus
+34b49698,"[HSM] stayAwake false uid : <*> , pid : <*>"
+037f0ad7,Pid : <*> MediaPlayer destructor
+128a9b2b,Process <*> : qzone (pid <*> ) has died
+abb3e55e,Scheduling restart of crashed service <*> <*> . <*> in 1000ms
+ace4ec29,"new Process app = ProcessRecord{ <*> <*> : <*> : qzone <*> } , name : <*> : qzone , euid : <*>"
+b8fa508f,Start proc <*> : <*> : qzone <*> for service <*> <*> . <*>
+9c2f8526,"animateCollapsePanels : flags = <*> , force = false , delayed = false , mExpandedVisible = false"
+2f7f5073,enqueueNotificationInternal : pkg = <*> id = <*> notification = Notification(pri = <*> contentView = null vibrate = [ <*> ] sound = null tick defaults = <*> flags = <*> color = <*> vis = PRIVATE)
+86519d3c,enqueueNotificationInternal : n.getKey = <*> | <*> | <*> |null| <*>
+99718fbd,getRingerMode...
+16100fb3,addNotification key = <*> | <*> | <*> |null| <*>
+3a97dc6f,mHeadsUpExistenceChangedRunnable
+29514423,<*> king notification as seen <*> | <*> | <*> |null| <*>
+36dc96c6,onNotificationExpansionChanged called
+3e8d2fef,"START u0 {act = <*> cat = [ <*> ] flg = <*> cmp = <*> <*> bnds = [ <*> , <*> ][ <*> , <*> ]} from uid <*> on display <*>"
+b8e93f2c,"ACTIVITY check resid : <*> , size = <*>"
+01b208ef,shouldBlockLocation ret : true
+0a050854,getAllCellInfo is blocked by permission manager . callingPackage = <*>
+11a000f2,getCellLocation is blocked by permission manager uid : <*> pid : <*>
+d639dd08,isWiredHeadsetOn...
+3af44e14,getStreamVolume treamType : <*>
+549dc50b,"updateIsPoweredLocked : wasPowered = false , mIsPowered = false , oldPlugType = <*> , mPlugType = <*> , mBatteryLevel = <*>"
+a501063b,ACTION_BATTERY_CHANGED AMP : <*> ; Volt : <*>
+76416382,updateChargingLocked : charging = false
+a7327cb4,"onReceive , action : <*>"
+69bd6b7e,ACTION_BATTERY_CHANGED pluggedType : <*>
+7465dea5,ApStaDisabledState what = <*>
+01334395,DefaultState what = <*>
+548354d5,battery changed pluggedType : <*>
+e9180b25,RefreshBatteryInfo isBatteryLow : <*>
+c81be00c,ChargingSpeed Wattage : - <*> ST : <*> --> <*>
+e23c2601,handleBatteryUpdate
+57fc0e93,enqueueNotificationInternal : pkg = <*> id = <*> notification = Notification(pri = <*> contentView = null vibrate = [] sound = null tick defaults = <*> flags = <*> color = <*> category = msg vis = PRIVATE)
+dc6ef95a,startActivity called from non-Activity context ; forcing Intent.FLAG_ACTIVITY_NEW_TASK for : Intent { flg = <*> cmp = <*> /.ui.LauncherUI (has extras) }
+23418033,makeExpandedInvisible : mExpandedVisible = false

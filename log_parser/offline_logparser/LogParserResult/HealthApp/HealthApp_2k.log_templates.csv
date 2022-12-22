@@ -1,0 +1,73 @@
+EventId,EventTemplate,Occurrences
+93067dc4,onStandStepChanged <*>,260
+d9d4b084,onExtend : <*> <*> <*> <*>,273
+ba81bfbe,onReceive action : <*>,34
+1ca203ab,processHandleBroadcastAction action : <*>,161
+b8f897f8,flush sensor data,17
+e0a83abb,getTodayTotalDetailSteps = <*>,242
+1dc55c4c,setTodayTotalDetailSteps = <*>,241
+64a19b89,calculateCaloriesWithCache totalCalories = <*>,241
+3e84d313,calculateAltitudeWithCache totalAltitude = <*>,241
+5cdf7db4,REPORT : <*> <*> <*> <*>,136
+03a21551,isScreenOn true,1
+293db1d9,"screen status unknown , think screen on",1
+0635a938,flushTempCacheToDB by stand,1
+d732e02a,Alarm uploadStaticsToDB totalSteps = 7163Calories : 153367Floor : 240Distance : <*>,1
+3b251b90,writeDataToDB size <*>,1
+859058cf,"upLoadOneMinuteDataToEngine time = <*> , <*> , <*> , <*> , <*>",5
+5fed72bf,getBinderPackageName packageName = com.huawei.health,8
+844227f0,"getAppContext() isAppValid health or wear , packageName = com.huawei.health",2
+7b52b221,insertHiHealthData() checkAppType <*> appID = <*>,2
+1394152b,"insertHiHealthData() size = <*> , app = <*> , One Data Type = <*> , packageName = com.huawei.health , writeStatType = <*>",2
+532eb2ff,"saveHealthDetailData() deviceID = <*> , clientID = <*> , id = <*>",2
+38d5627f,"saveStatData() type = <*> , time = <*> , statClient = <*> , who is <*>",4
+faf456a8,"new date = <*> , type = <*> , <*> , old = <*>",17
+0ed5d2db,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*> , type = <*>",2
+e960f430,"<*> size = <*> , totalTime = <*>",3
+960958ed,startListenerChange subscribeList = [1],2
+54445833,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*> , errorMessage = ERR_DATA_INSERT",1
+034409f5,insertHiHealthData() end totalTime = <*>,2
+ea676e32,uploadStaticsToDB() onResult type = <*> obj = true,1
+91d90b03,uploadStaticsToDB failed message = true,1
+71835e93,checkInsertStatus stepSum or calorieSum is enough,2
+42ded8e2,checkInsertStatus stepStatSum or calorieStatSum is enough,2
+42762184,"stepSyncOrNot appSynTimes is <*> , statsyncTimes is <*>",2
+9f5078b5,"startInsertSportSync start auto sync , app is <*>",2
+95058f56,"checkFirstSyncByType no such data in db , type is <*> deviceCode is <*>",2
+af938f3a,"startInsertSportSync first <*> steps sync , do all sync",2
+04f30c3a,"startSync hiSyncOption = HiSyncOption{syncAction = <*> , syncMethod = <*> , syncScope = <*> , syncDataType = <*> , syncModel = <*> , pushAction = 0} , app = <*> who = <*>",5
+6e805a4c,needAutoSync autoSyncSwitch is open,5
+0792ad5e,"initDataPrivacy the dataPrivacy switch is open , start push health data!",5
+38085a58,initDataPrivacy the dataPrivacy is true,5
+625dd3df,"initUserPrivacy the userPrivacy switch is open , start push user data!",5
+1d4b8a6f,initUserPrivacy the userPrivacy is true,5
+3f9b4da2,ifCanSync not! no cloud version,5
+8764d489,sendSyncFailedBroadcast,5
+5e8d52d4,InsertCallBack() onSuccess type = <*> data = true,1
+f2c272f1,InsertEvent success begin : <*> end : <*>,1
+20231c2f,setWriteDBLastDataMinute = <*>,1
+042d7a7a,setWriteDBLastDataMinute success,1
+b3d6ad7f,flush2DB result success,1
+e9a1623c,"timeStamp back , extendReportTimeStamp = <*>",5
+3ba40b70,startTimer start autoSync,3
+71d384b3,stepSyncOrNot appSynTimes is <*>,3
+80fd1c95,getTodaySportData mStepsRecordManager = com.huawei.health.g.c@8a2a501,6
+057ae03f,theDayChanged <*>,1
+e788f919,initEnviroument,1
+3244bf49,getStepCounterStatus,1
+c00a6568,getStepCounterStatus = true,1
+86bcfaea,reStartStepCounter,1
+d35dfbbc,registersensorsuccess : true,1
+3616b800,clear(),1
+71ffe66c,tryToReloadTodayBasicSteps1514044800223|3786|0|0,1
+c5a628cf,deleteHealthNotification(),1
+59c10946,getTodayBasicStandardSteps = <*>,2
+00d03c97,tryToRecordAsBasicStepData bWrite true,1
+c296f55b,getDiffTotalSteps = <*>,2
+71ed08df,setBasicStandardSteps basicStandardStep = <*> restartSteps = <*>,1
+8223c98a,setDiffTotalSteps = <*>,1
+00dbbc8e,reload : <*> restar <*>,1
+2b7e106f,next day : steps0mLastReport7214,1
+0d02a5eb,setGoalNotifiShownRecord <*> false,1
+8e523808,closeNotification...,1
+739dc81a,"checkCurrentDay a new day comes , reset basicSyncCondition , currentDay is <*> oldDay is <*>",1

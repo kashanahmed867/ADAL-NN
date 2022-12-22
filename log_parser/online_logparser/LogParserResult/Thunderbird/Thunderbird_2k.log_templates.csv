@@ -1,0 +1,146 @@
+EventId,EventTemplate
+3be46d32,session closed for user root
+65c834bf,session opened for user root by (uid = 0)
+cfcd2084,0
+3d54d620,data_thread() got not answer from any [ <*> <*> datasource
+8d43917d,"synchronized to <*> , stratum <*>"
+ec002eb4,[ib_sm_sweep.c : 1831] : ********************** NEW SWEEP ********************
+d521c88d,[ib_sm_sweep.c : 1455] : No topology change
+ebb02a6d,[ib_sm_sweep.c : 1482] : No configuration change required
+d6a4a088,Local disconnected : Connection closed.
+6fd80c0f,connection lost : 'Connection closed.'
+fadd4d28,unable to qualify my own domain name <*> -- using short name
+411ad4e3,"<*> : from = root , size = <*> , class = <*> , nrcpts = <*> , msgid = <*> , relay = #7#@localhost"
+d21ef973,"<*> : to = root , ctladdr = root (0/0) , delay = <*> : <*> : <*> , xdelay = <*> : <*> : <*> , mailer = relay , pri = <*> , relay = [ <*> ] [ <*> ] , dsn = 4.0.0 , stat = Deferred : Connection refused by [ <*> ]"
+b117d234,DHCPDISCOVER from <*> : <*> : <*> : e3 : ba : c3 via eth1
+ed14a80d,DHCPOFFER on <*> to <*> : <*> : <*> : e3 : ba : c3 via eth1
+aa45ef2b,DHCPDISCOVER from <*> : <*> : <*> : e3 : ba : c3 via eth1 : network A_net : no free leases
+c24f3f12,DHCPACK on <*> to <*> : <*> : <*> : e3 : ba : c3 via eth1
+06dd8742,DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e3 : ba : c3 via eth1
+f3535a32,START : tftp pid = <*> from = <*>
+d161952a,DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e3 : ba : c3 via eth1 : unknown lease <*> .
+1f9dd8bc,RRD_update <*> <*> : illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+97e54efd,kernel time sync disabled <*>
+d89e5477,time reset +0.182379 s
+4d20657c,Received SNMP packet(s) from #34#
+b909c55d,kernel time sync enabled <*>
+d676ca63,My unqualified host name <*> unknown ; sleeping for retry
+3956ae6c,CentOS-4 (Kernel Module GPG key)
+043fe8bf,<*> (v001 DELL PE BKC 0x00000001 MSFT <*> @ <*>
+8a0bba24,HPET id : 0xffffffff base : 0xfed00000
+69b9a4f8,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+c234208b,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)
+f63012ac,IOAPIC <*> <*> <*>
+848d9c3a,<*> used by override.
+2188fc64,Interpreter enabled
+460b8859,LAPIC <*> <*> enabled)
+2bd14d50,LAPIC_NMI <*> high edge lint[0x1])
+a9781187,Local APIC address 0xfee00000
+f6ac782c,PCI Interrupt Link <*> (IRQs <*> <*> <*> <*> <*> <*> <*> 12) <*>
+b5151f7c,"PCI Interrupt Link <*> (IRQs <*> <*> <*> <*> <*> <*> <*> 12) *0 , disabled."
+f3156356,PCI Interrupt Routing Table <*>
+27b8ada8,PCI Root Bridge [PCI0] (00 : 00)
+592263ab,"PCI interrupt <*> : <*> : <*> -> GSI <*> (level , low) -> IRQ <*>"
+04ea23b0,Power Button (FF) [PWRF]
+712fbe4d,Processor <*> (supports C1)
+7be80732,RSDP (v000 DELL ) @ 0x00000000000fd650
+54e256e6,Subsystem revision <*>
+5925103d,Using IOAPIC for interrupt routing
+f7c2cb75,Intel(R) Xeon(TM) CPU 3.60GHz stepping <*>
+b5545ad6,L2 cache : 2048K
+4f426021,Physical Processor ID : <*>
+414d7e27,"Trace cache : 12K uops , L1 D cache : 16K"
+b6d701a5,colour VGA+ 80x25
+a0162353,mounted filesystem with ordered data mode.
+adaf97d5,"sys_ia32.c , v 1.32 2002/03/24 <*> : <*> : <*> ak Exp $"
+fb1162b7,"apic_id <*> , version <*> , address <*> , GSI <*>"
+6c149cd6,"routing cache hash table of <*> buckets , 1024Kbytes"
+bea2a0f6,PCI Hot Plug PCI Core version : 0.5
+589250fa,"root = LABEL = / initrd = /x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console = tty0 console = ttyS0 , <*> fastboot BOOT_IMAGE = /x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr"
+c47c3599,Registered protocol family <*>
+f927eeab,Using software bounce buffering for IO (SWIOTLB)
+7a555835,Probing PCI hardware (bus 00)
+5ad648af,Transparent bridge - <*> : <*> : 1e.0
+a18fe907,Using ACPI for IRQ routing
+a60bce0b,Using MMCONFIG at e0000000
+415e7cee,Using configuration type <*>
+4211e0af,Compressed image found at block <*>
+b79ffc59,Disabled at runtime.
+7f533fb9,Initializing.
+4e48601f,Registering netfilter hooks
+25ea518d,Starting in permissive mode
+e3539859,Unregistering netfilter hooks
+55182f9d,Hash tables configured (established <*> bind 65536)
+d0820f4c,Direct-Access ANSI SCSI revision : <*>
+7f8a65db,Processor ANSI SCSI revision : <*>
+75765837,Disk quotas dquot_6.5.1
+13481907,Mounted root (ext2 filesystem).
+0591cf0a,MegaRAID Model : LD <*> RAID1 139G Rev : 516A
+d8636ad5,PE/PV Model : 1x2 SCSI BP Rev : 1.0
+84d10a1e,initialized
+8bd4b5f8,initializing netlink socket (disabled)
+f36e8103,passed.
+c948212f,4.1.0-ioctl (2003-12-10) initialised : #36#@#37#
+b3dc57c4,allocating divert_blk for <*>
+f6df922d,not allocating divert_blk for non-ethernet device lo
+d40fa413,v2.0 : USB HID core driver
+5ecf013d,<*> : e1000_probe : Intel(R) PRO/1000 Network Connection
+5c490fa3,eth0 : e1000_watchdog : NIC Link is Up <*> Mbps Full Duplex
+16483862,no floppy controllers found
+1d7c8312,RNG not detected
+708630cc,Wait for ready failed before probe !
+35742c78,Assuming 33MHz system bus speed for PIO modes ; override with idebus = xx
+279d4fa2,Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda
+a56daf2e,(C) 2000-2002 Netfilter core team
+bfcd95ed,Installing public key data
+cd2a6bd5,... autorun DONE.
+953a8d97,Autodetecting RAID arrays.
+7ce70afa,autorun ...
+1baac1a0,"md driver 0.90.0 MAX_MD_DEVS = <*> , MD_SB_DISKS = <*>"
+7dc183bd,#38#-rh1 (Release Date : <*> <*> EST 2004)
+3fa60761,#39# (Release Date : <*> <*> EDT 2004)
+a2fb21e1,fw version : [516A] bios version : [H418]
+e55c539c,probe new device 0x1028 : 0x0013 : 0x1028 : 0x016c : bus <*> : slot <*> : func <*>
+a2351676,PS/2 mouse device common for all mice
+25830347,rpc.statd startup succeeded
+7d73b4c5,portmap startup succeeded
+b1c96ff0,Starting ts_fixup : succeeded
+8c112e82,Version 1.0.6 Starting
+7f146802,LSI Logic MegaRAID driver
+a6cf29a8,scanning scsi channel <*> [Phy 0] for non-raid devices
+19d28e10,scanning scsi channel <*> [virtual] for logical drives
+6a604788,asking for cache data failed
+559a2f61,assuming drive cache : write through
+30c0ff51,Registering secondary module capability
+c082cf6d,"i8042 AUX port at 0x60 , 0x64 irq <*>"
+df889ee1,"i8042 KBD port at 0x60 , 0x64 irq <*>"
+c648b2ba,syslog-ng version 1.6.7 starting
+2db65c57,Detected 3591.360 MHz processor.
+c3fac8e7,Using 14.318180 MHz HPET timer.
+e8ca34b7,Using HPET based timekeeping.
+7daf33a1,Creating Topspin /dev entries :
+c1e7e610,registered new driver hiddev
+0e2d4232,registered new driver hub
+0a406962,registered new driver usbfs
+5e1328a0,registered new driver usbhid
+2752726e,probe of vesafb0 failed with error -6
+b9bde770,"connection from "" #28# """
+15feb034,"User #29# , coming from #30# , authenticated."
+b42be2bb,Now running on #29#'s privileges.
+598777d5,Mounting NFS filesystems : succeeded
+a57f3700,Mounting other filesystems : failed
+06450e50,Warning : we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+aae218f8,Warning : we failed to resolve trusted host name dadmin3 dadmin4
+264d5edd,gmetad startup succeeded
+3f76fb79,not allocating divert_blk for non-ethernet device sit0
+9b1751bd,succeeded
+cc65e841,Server listening on : : port 22.
+24b723c0,error : Bind to port <*> on <*> failed : Address already in use.
+712394d8,Cannot open file /dev/logsurfer for writing (No such file or directory)
+79af7456,Changing permissions on special file /dev/logsurfer
+09f718ce,xinetd startup succeeded
+c39d3556,Reading included configuration file : <*> [file = <*> [line = <*>
+2b643acf,Started working : <*> available service
+49f6bba5,removing <*>
+3f023526,xinetd Version 2.3.13 started with libwrap loadavg options compiled in.
+5150b857,"Device : /dev/sda , Temperature changed -2 Celsius to <*> Celsius since last report"

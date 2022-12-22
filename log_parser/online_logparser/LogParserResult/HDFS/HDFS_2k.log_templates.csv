@@ -1,0 +1,15 @@
+EventId,EventTemplate
+dc2c74b7,PacketResponder <*> for block <*> terminating
+515875fa,BLOCK* NameSystem.addStoredBlock : blockMap updated : <*> is added to <*> size <*>
+198933df,Received block <*> of size <*> from / <*>
+1c5cde55,Receiving block <*> src : / <*> dest : / <*>
+1fdad114,BLOCK* NameSystem.allocateBlock : <*> <*>
+32777b38,Verification succeeded for <*>
+dc6edd61,Deleting block <*> file <*> <*>
+33b29dd6,<*> Served block <*> to / <*>
+5e80c17e,<*> : Got exception while serving <*> to / <*> :
+f6cb47bf,BLOCK* NameSystem.delete : <*> is added to invalidSet of <*>
+40651754,<*> Starting thread to transfer block <*> to <*>
+04137b95,BLOCK* ask <*> to delete <*>
+dddf5716,Received block <*> src : / <*> dest : / <*> of size <*>
+728076ac,BLOCK* ask <*> to replicate <*> to datanode(s) <*>

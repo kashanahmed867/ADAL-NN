@@ -1,0 +1,28 @@
+EventId,EventTemplate
+5185ab59,reverse mapping checking getaddrinfo for <*> [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT!
+9302fad4,Invalid user <*> from <*>
+52b6022f,input_userauth_request : invalid user <*> [preauth]
+22e023ed,pam_unix(sshd : auth) : check pass ; user unknown
+cc1fabde,pam_unix(sshd : auth) : authentication failure ; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*>
+21bb6d0e,Failed password for invalid user <*> from <*> port <*> ssh2
+2491ca3e,Connection closed by <*> [preauth]
+81707f27,Received disconnect from <*> : <*> : Bye Bye [preauth]
+c9ade405,pam_unix(sshd : auth) : authentication failure ; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*> user = <*>
+f831cb6d,Failed password for <*> from <*> port <*> ssh2
+911ff2c7,message repeated <*> times : [ Failed password for root from <*> port <*> ssh2]
+51b48c6c,Disconnecting : Too many authentication failures for root [preauth]
+acfcdca4,PAM <*> more authentication failures ; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*> user = root
+a9fa2cf9,PAM service(sshd) ignoring max retries ; <*> > <*>
+c926c7d9,Did not receive identification string from <*>
+dfd274f7,error : Received disconnect from <*> : <*> : <*> : Auth fail [preauth]
+54fd6a4d,Received disconnect from <*> : <*> : Closed due to user request. [preauth]
+2702de18,Failed none for invalid user <*> from <*> port <*> ssh2
+5eb3601d,PAM <*> more authentication failures ; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*>
+b2d4b7e9,PAM <*> more authentication failure ; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*>
+c13ac0fe,error : Received disconnect from <*> : <*> : No more user authentication methods available. [preauth]
+e879f754,Accepted password for fztu from <*> port <*> ssh2
+f94f1fd3,pam_unix(sshd : session) : session opened for user fztu by (uid = 0)
+2bcd535f,Received disconnect from <*> : <*> : disconnected by user
+11b89180,pam_unix(sshd : session) : session closed for user fztu
+fdd09d07,Disconnecting : Too many authentication failures for admin [preauth]
+b49e28ad,fatal : Write failed : Connection reset by peer [preauth]

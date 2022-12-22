@@ -1,0 +1,44 @@
+EventId,EventTemplate,Occurrences
+7a72cde4,Notification time out : <*>,37
+009ff1b2,Received connection request / <*>,299
+7a2ec7d0,Send worker leaving thread,262
+45a3ec5d,Interrupted while waiting for message on queue,314
+22d78191,"Connection broken for id <*> , my id = <*> , error =",291
+273e53f2,Interrupting SendWorker,266
+60ca49f5,Closed socket connection for client / <*> which had sessionid <*>,44
+ecefe136,caught end of stream exception,37
+95a5e5a9,Client attempting to renew session <*> at / <*>,3
+f05cbcde,Client attempting to establish new session at / <*>,41
+adc6da68,Established session <*> with negotiated timeout <*> for client / <*>,50
+0b73f5f8,Accepted socket connection from / <*>,48
+0aa902cb,Unexpected Exception :,1
+dd42a400,Connection request from old client / <*> ; will be dropped if server is in r-o mode,39
+4ca496e7,Server environment : <*> = <*>,8
+757b1652,Cannot open channel to <*> at election address / <*>,86
+ad92ce41,Processed session termination for sessionid : <*>,47
+95440163,"Expiring session <*> , timeout of <*> exceeded",40
+df9824db,******* GOODBYE / <*> ********,19
+00078e14,LOOKING,4
+d05cc79b,My election bind port : <*> / <*>,1
+0ec81265,"Have smaller server identifier , so dropping the connection : (2 , 1)",1
+c172d526,FOLLOWING,2
+7601b5e9,"New election. My id = <*> , proposed zxid = 0x700000000",1
+a1237171,FOLLOWING - LEADER ELECTION TOOK - <*>,2
+b9c5db0e,"Notification : <*> (n.leader) , <*> (n.zxid) , <*> (n.round) , <*> (n.state) , <*> (n.sid) , <*> (n.peerEPoch) , <*> (my state)",12
+331b4187,<*> set to <*>,8
+1a20f8dd,Server environment : java.vendor = Oracle Corporation,2
+63f9f4f6,Revalidating client : <*>,3
+7cc35456,"Server environment : zookeeper.version = 3.4.5--1 , built on 06/10/2013 <*> : <*> GMT",1
+2f41f340,Closed socket connection for client / <*> (no session established for client),4
+cacf42f4,Exception causing close of session 0x0 due to java.io.IOException : ZooKeeperServer not running,3
+0cf47064,Unexpected exception causing shutdown while sock still open,12
+91284968,Got user-level KeeperException when processing sessionid : 0x34ed93485090001 type : create cxid : 0x55b8bb0f zxid : 0x100000010 txntype : -1 reqpath : n/a Error Path : /home/curi/.zookeeper Error : KeeperErrorCode = NodeExists for /home/curi/.zookeeper,1
+d459c04c,Starting quorum peer,1
+25c21275,Snapshotting : <*> to <*>,2
+07c7117c,Follower sid : <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,1
+3a98bb4e,Have quorum of supporters ; starting up and setting last processed zxid : 0xb00000000,1
+c7ef5ae9,shutdown of request processor complete,1
+9cb3def4,First is 0x0,1
+a9459b27,Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084,1
+9d86801d,Sending DIFF,1
+4c5926a1,Getting a snapshot from leader,2
